@@ -37,8 +37,6 @@ Create a local.conf and copy the contents of /devstack/samples/local.conf into i
 
 Uncomment HOST_IP IPv4 address and put the static bridged IP address.
 
-Uncomment milestone services.
-
 Change the passwords
 
 Add FORCE=yes in the first line of /devstack/stack.sh file.
