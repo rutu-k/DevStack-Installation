@@ -25,7 +25,7 @@ dns-nameservers 8.8.8.8 x.x.x.x)
 
 
 Enter the following commands in CLI:
-$ sudo user add -s /bin/bash -d /opt/stack -m stack; echo "stack ALL=(ALL) NOPASSWD: ALL"| sudo tee /etc/sudoers.d/stack; sudo su - stack
+$ sudo useradd -s /bin/bash -d /opt/stack -m stack; echo "stack ALL=(ALL) NOPASSWD: ALL"| sudo tee /etc/sudoers.d/stack; sudo su - stack
 
 $ sudo apt-get install cloud-init
 
