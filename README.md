@@ -33,6 +33,8 @@ $ git clone https://github.com/openstack-dev/devstack.git
 
 $ cd devstack
 
+$ git checkout stable/stein
+
 Create a local.conf and copy the contents of /devstack/samples/local.conf into it.
 
 Uncomment HOST_IP IPv4 address and put the static bridged IP address (in case if you have default network settings then put 10.0.2.15).
